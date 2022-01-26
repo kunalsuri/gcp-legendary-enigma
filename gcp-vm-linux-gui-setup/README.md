@@ -17,8 +17,8 @@ How?:	Follow the steps, there are some pre-requisites (and assumptions)
 		1.	In the Google Compute Engine, a new Linux VM has been created
 		2.	The VM is running or has been started 
 		3. 	You have logged into the Linux Server via SSH console window 
-		4. 	Check if you have wget: 
-				Type on the console --> 
+		4. 	Check if you have "wget" (it is used to download files from the web): 
+				Type on the console --> wget -V
 				If there is an error message, then do --> sudo apt install wget
 				Check again --> wget -V
 				It should work now!
