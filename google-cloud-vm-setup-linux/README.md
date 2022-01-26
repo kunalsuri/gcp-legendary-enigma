@@ -25,11 +25,11 @@ How?:	Follow the steps, there are some pre-requisites (and assumptions)
 			Note: Replace "myusername" and "mypass" with your credentials
 			
 			i. On Ubuntu
-			wget https://github.com/eerolat/setup-google-linux/raw/master/ubuntu-install-gui.sh
+			wget https://github.com/kunalsuri/gcp-legendary-enigma/raw/master/google-cloud-vm-setup-linux/ubuntu-install-gui.sh
 			sh ubuntu-install-gui.sh -u myusername mypass
 			
 			i. On Debian
-			wget https://github.com/eerolat/setup-google-linux/raw/master/debian-install-gui.sh
+			wget https://github.com/kunalsuri/gcp-legendary-enigma/raw/master/google-cloud-vm-setup-linux/debian-install-gui.sh
 			sh ubuntu-install-gui.sh -d myusername mypass
 			
 		3.	Lets the process complete/ finish. You will see the final message as "GUI Installation Completed!"
