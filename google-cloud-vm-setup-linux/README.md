@@ -1,10 +1,10 @@
-#Metadata
-	Creator:	Kunal Suri
-	Repo:	gcp-legendary-enigma
-	Folder:	google-cloud-vm-setup-linux
-	Intro:	Describing the several steps needed for settiup up a Linux VM in the Google Cloud Platform.
-
 #Setting up Graphical User Interface (GUI) for VM running Linux server on GCP
+	Metadata
+		1.	Creator:	Kunal Suri
+		2.	Repo:	gcp-legendary-enigma 
+		3. 	Folder:	google-cloud-vm-setup-linux
+		4. 	Intro:	Describing the several steps needed for settiup up a Linux VM in the Google Cloud Platform.
+		
 
 #What?:	
 The following instruction allow users to install a GUI on thier linux server on GCP. 
