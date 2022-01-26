@@ -17,6 +17,12 @@ How?:	Follow the steps, there are some pre-requisites (and assumptions)
 		1.	In the Google Compute Engine, a new Linux VM has been created
 		2.	The VM is running or has been started 
 		3. 	You have logged into the Linux Server via SSH console window 
+		4. 	Check if you have wget: 
+				Type on the console --> 
+				If there is an error message, then do --> sudo apt install wget
+				Check again --> wget -V
+				It should work now!
+		
 		
 	Step01: Running the script in the SSH console window
 		1. In the VM instance, click the "SSH" button. It will open a new SSH console window
