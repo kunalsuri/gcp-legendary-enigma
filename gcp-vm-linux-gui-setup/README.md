@@ -22,6 +22,9 @@ How?:	Follow the steps, there are some pre-requisites (and assumptions)
 				If there is an error message, then do --> sudo apt install wget
 				Check again --> wget -V
 				It should work now!
+		5. If you like to run a test script, run the two commands
+			$ wget https://raw.githubusercontent.com/kunalsuri/gcp-legendary-enigma/main/gcp-vm-linux-gui-setup/setup-test.sh
+			$ sh setup-test.sh myusername mypass
 		
 		
 	Step01: Running the script in the SSH console window
@@ -31,11 +34,11 @@ How?:	Follow the steps, there are some pre-requisites (and assumptions)
 			Note: Replace "myusername" and "mypass" with your credentials
 			
 			i. On Ubuntu 
-			wget https://github.com/kunalsuri/gcp-legendary-enigma/blob/main/gcp-vm-linux-gui-setup/ubuntu-install-gui.sh
+			wget https://raw.githubusercontent.com/kunalsuri/gcp-legendary-enigma/main/gcp-vm-linux-gui-setup/ubuntu-install-gui.sh
 			sh ubuntu-install-gui.sh -u myusername mypass
 			
 			i. On Debian
-			wget https://github.com/kunalsuri/gcp-legendary-enigma/blob/main/gcp-vm-linux-gui-setup/debian-install-gui.sh
+			wget https://raw.githubusercontent.com/kunalsuri/gcp-legendary-enigma/main/gcp-vm-linux-gui-setup/debian-install-gui.sh
 			sh debian-install-gui.sh -u myusername -d mypass
 			
 		3.	Lets the process complete/ finish. You will see the final message as "GUI Installation Completed!"

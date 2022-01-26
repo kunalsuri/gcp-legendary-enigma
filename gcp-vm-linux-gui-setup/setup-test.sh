@@ -1,14 +1,13 @@
 #!/bin/bash
 
-echo '==== This script will install the GUI on your Ubuntu Server. ===='
-echo '==== It will also create a user account for enabling Remote Desktop Connections ===='
-echo '==== Username: ' $1
-echo '==== Password: ' $2
+echo '==== This is a test script.'
 
 echo ''
 
-echo '==== Upgrade system ===='
-sudo apt update
+echo '==== This script will check if there is anything to upgrade in your system.'
+
 sudo apt upgrade -y
 
-echo '==== System Updated Service Completed. ===='
+echo '==== The test script has run successfully. Thanks!'
+
+echo ''
