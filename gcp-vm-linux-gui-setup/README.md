@@ -35,10 +35,10 @@ How?:	Follow the steps, there are some pre-requisites (and assumptions)
 			
 			i. On Ubuntu 
 			wget https://raw.githubusercontent.com/kunalsuri/gcp-legendary-enigma/main/gcp-vm-linux-gui-setup/ubuntu-install-gui.sh
-			sh ubuntu-install-gui.sh -u myusername mypass
+			sh ubuntu-install-gui.sh myusername mypass
 			
 			i. On Debian
 			wget https://raw.githubusercontent.com/kunalsuri/gcp-legendary-enigma/main/gcp-vm-linux-gui-setup/debian-install-gui.sh
-			sh debian-install-gui.sh -u myusername -d mypass
+			sh debian-install-gui.sh myusername mypass
 			
 		3.	Lets the process complete/ finish. You will see the final message as "GUI Installation Completed!"
